@@ -1,0 +1,63 @@
+{
+  "order_uid": "11111newid22222",
+  "track_number": "MYNEWTRACK",
+  "entry": "WBIL",
+  "delivery": {
+    "name": "Big Tester",
+    "phone": "+9220000006",
+    "zip": "6230303",
+    "city": "City City",
+    "address": "Ulitsa Street 14",
+    "region": "Region",
+    "email": "bigtester@mail.ru"
+  },
+  "payment": {
+    "transaction": "a12345bcdrb84b6test",
+    "request_id": "",
+    "currency": "RUB",
+    "provider": "wbpay",
+    "amount": 1812,
+    "payment_dt": 1637907728,
+    "bank": "sber",
+    "delivery_cost": 1600,
+    "goods_total": 220,
+    "custom_fee": 0
+  },
+  "items": [
+    {
+      "chrt_id": 9934930,
+      "track_number": "MYNEWTRACK",
+      "price": 100,
+      "rid": "fa3244087a764ae0btest",
+      "name": "Cheese",
+      "sale": 30,
+      "size": "0",
+      "total_price": 70,
+      "nm_id": 123412,
+      "brand": "Brest-Litovsk",
+      "status": 202
+    },
+
+    {
+      "chrt_id": 1234506,
+      "track_number": "MYNEWTRACK",
+      "price": 150,
+      "rid": "fa3244087a7t0mat0test",
+      "name": "Tomato",
+      "sale": 0,
+      "size": "0",
+      "total_price": 150,
+      "nm_id": 123413,
+      "brand": "FarmFarm",
+      "status": 202
+    }
+  ],
+  "locale": "ru",
+  "internal_signature": "",
+  "customer_id": "test",
+  "delivery_service": "meest",
+  "shardkey": "9",
+  "sm_id": 99,
+  "date_created": "2024-01-12T09:30:20Z",
+  "oof_shard": "1"
+}

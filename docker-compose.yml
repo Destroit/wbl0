@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: l0db
+      POSTGRES_USER: l0user
+      POSTGRES_PASSWORD: l0jka
+    ports:
+      - "5432:5432"
+    restart: always
+    volumes:
+      - ./docker/postgres/init:/docker-entrypoint-initdb.d
+
+  nats-streaming:
+    image: nats-streaming:latest
+    ports:
+      - "4222:4222"
+      - "8222:8222"

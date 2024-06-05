@@ -1,0 +1,4 @@
+CREATE TABLE orders (
+	id VARCHAR(64) PRIMARY KEY,
+	data JSONB
+);
